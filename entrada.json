@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "nome":" Maria da Silva ",
+    "email": "MARIA@EMAIL.COM",
+    "cpf": "123.456.789-00",
+    "curso": "Administração",
+    "valor_mensalidade": 800.00,
+    "desconto_percentual": 10,
+    "documentos_entregues": [
+      "RG",
+      "CPF",
+      "COMPROVANTE_ENDERECO"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "João Pereira",
+    "email": "joao@email.com",
+    "cpf": "98765432100",
+    "curso": "Sistemas de Informação",
+    "valor_mensalidade": 950.00,
+    "desconto_percentual": 15,
+    "documentos_entregues": ["RG"]
+  },
+  {
+    "id": 3,
+    "nome": "Carlos Quebrado",
+    "email": "carlos.com",
+    "cpf": "12345",
+    "curso": "Direito",
+    "valor_mensalidade": -50,
+    "desconto_percentual": 200,
+    "documentos_entregues": []
+  }
+]
