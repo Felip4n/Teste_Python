@@ -24,8 +24,8 @@
             "status": "PENDENTE",
             "valor_final": 807.5,
             "documentos_faltantes": [
-                "COMPROVANTE_ENDERECO",
-                "CPF"
+                "CPF",
+                "COMPROVANTE_ENDERECO"
             ],
             "erros": []
         },
@@ -37,9 +37,9 @@
             "status": "REJEITADA",
             "valor_final": null,
             "documentos_faltantes": [
-                "COMPROVANTE_ENDERECO",
+                "CPF",
                 "RG",
-                "CPF"
+                "COMPROVANTE_ENDERECO"
             ],
             "erros": [
                 "E-mail com formato inválido",

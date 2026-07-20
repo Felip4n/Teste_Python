@@ -13,7 +13,7 @@ Aplicação CLI em Python para leitura, normalização, validação e processame
 3. Instale as dependências de teste: `pip install pytest`.
 
 ## Como executar os testes
-Na raiz do projeto, execute o comando abaixo para rodar a suíte de testes automatizados:
+Na raiz do projeto, execute o comando abaixo para rodar os testes automatizados:
 python -m pytest test_processamento.py -v
 
 ## Como executar a aplicação
@@ -27,7 +27,7 @@ python -m app entrada.json saida.json
 - **Onde usei:** 
   - Na montagem da estrutura base do projeto e organização dos arquivos.
   - Na criação das expressões regulares (regex) para limpar o CPF e validar o e-mail.
-  - Para montar a base (boilerplate) dos testes no pytest.
+  - Para montar a base dos testes no pytest.
   - Na geração de dados fictícios para rodar os testes.
 - **Exemplos de prompts:** *"Crie uma regex simples para validar e-mail em Python"*, *"Gere alguns objetos JSON fictícios de matrículas para eu testar a aplicação"* e *"Quais casos de erro comuns eu devo prever ao calcular o desconto da mensalidade?"*.
 - **O que foi rejeitado:** A IA sugeriu usar a biblioteca `pandas` para manipular os dados do JSON. Preferi ignorar e usar apenas Python puro (`dict`, `set`, `list`), porque teste pede uma solução focada em clareza e sem complexidade desnecessária.
